@@ -1,0 +1,54 @@
+.ai-shop-assistant-button {
+    position: fixed;
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 9999;
+    transition: background-color 0.3s ease;
+}
+
+.ai-shop-assistant-button:hover {
+    background-color: #005177;
+}
+
+.ai-shop-assistant-button.left {
+    left: 20px;
+}
+
+.ai-shop-assistant-button.right {
+    right: 20px;
+}
+
+#ai-shop-assistant-suggestions {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 9998;
+}
+
+.product-suggestion {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.product-suggestion:last-child {
+    border-bottom: none;
+}
+
+.product-suggestion img {
+    max-width: 100%;
+    height: auto;
+}
