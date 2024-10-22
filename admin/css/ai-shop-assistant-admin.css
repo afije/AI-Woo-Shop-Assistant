@@ -1,0 +1,16 @@
+.wrap {
+    max-width: 800px;
+}
+
+.form-table th {
+    width: 200px;
+}
+
+.form-table input[type="text"],
+.form-table select {
+    width: 300px;
+}
+
+.form-table input[type="checkbox"] {
+    margin-top: 5px;
+}
